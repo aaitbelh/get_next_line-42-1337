@@ -74,7 +74,7 @@ char	*get_line(char *str)
 	if (str[i] == '\n')
 		line = malloc(sizeof(char) * (i + 2));
 	else
-		line = malloc(sizeof(char) * (i + 1z));
+		line = malloc(sizeof(char) * (i + 1));
 	while (str[j] && str[j] != '\n')
 	{
 		line[j] = str[j];
